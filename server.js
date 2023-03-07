@@ -6,6 +6,8 @@ const formData = require('express-form-data')
 
 const profilesRouter = require('./routes/profiles.js')
 const authRouter = require('./routes/auth.js')
+const itemsRouter = require('./routes/items.js')
+
 
 const app = express()
 
